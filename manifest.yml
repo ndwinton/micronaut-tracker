@@ -1,0 +1,8 @@
+applications:
+- name: micronaut-tracker
+  path: build/libs/micronaut-tracker-0.1-all.jar
+  env:
+    JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
+    WELCOME_MESSAGE: Hello from the Cloud!
+  routes:
+  - route: micronaut-tracker-ndw.cfapps.io
