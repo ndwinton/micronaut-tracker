@@ -1,4 +1,4 @@
-package tracker.micronaut;
+package micronaut.tracker;
 
 import io.micronaut.runtime.Micronaut;
 

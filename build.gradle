@@ -41,7 +41,7 @@ dependencies {
 
 test.classpath += configurations.developmentOnly
 
-mainClassName = "tracker.micronaut.Application"
+mainClassName = "micronaut.tracker.Application"
 // use JUnit 5 platform
 test {
     useJUnitPlatform()
